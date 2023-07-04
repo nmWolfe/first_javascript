@@ -24,3 +24,9 @@ function convertMinutesToSeconds(event) {
     const minutes = event.target.value;
     alert(minutes*60)
 }
+
+function sayPersonalHello(event) {
+    const name = event.target.value;
+    const message = `Hello, ${name}`;
+    alert(message)
+}
