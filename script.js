@@ -17,6 +17,10 @@ function getGreetingInFrench(event) {
     } else {
         response = "Not recognised"
     }
-
     alert(response)
+}
+
+function convertMinutesToSeconds(event) {
+    const minutes = event.target.value;
+    alert(minutes*60)
 }
